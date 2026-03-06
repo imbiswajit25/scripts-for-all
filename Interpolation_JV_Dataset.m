@@ -1,6 +1,7 @@
 % =========================================================================
 % JV Data Interpolation Script with File Selection & Step Size Input
-% Author: Biswajit Pal
+% Author: Biswajit Pal, Indian Institute of Technology (IIT) Jodhpur, India
+% LinkedIn: https://www.linkedin.com/in/mrbiswajit03/
 % Date: July 2025
 % =========================================================================
 
@@ -89,3 +90,4 @@ if strcmp(choice, 'Yes')
     writematrix(outputData, outpath, 'Delimiter', 'tab');
     disp(['Interpolated data saved to: ', outpath]);
 end
+
